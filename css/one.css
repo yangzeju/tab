@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+}
+
+.top{
+	background-color:blue;
+	
+	width: 100%;
+}
+
+
+.top_top{
+	background-color:	#C0C0C0;
+	height: 110px;
+	width: 980px;
+	margin:0 auto;
+}
+
+.top_top_left{
+	width:770px;
+	height:110px;
+	overflow: hidden;
+}
+
+
+.logo{
+	width:260px;
+	height:80px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: 100%;
+	float: left;
+}
+
+.search {
+	position: relative;
+	height: 32px;
+	width: 368px;
+	margin: 35px 30px 0;
+	float: right;
+	border: solid #f84e4e 2px;
+	border-radius: 4px;
+	padding-left: 40px;
+	background-color: #fff;
+	line-height: 32px;
+}
+.search i {
+	position: absolute;
+	left: 2px;
+	top: 5px;
+	height: 20px;
+	width: 20px;
+	display: block;
+	background: url('../img/searce.png') no-repeat center;
+	background-size: 100%;
+}
+.search input {
+	height: 100%;
+	width: 277px;
+	border: 0;
+	background-color: transparent;
+}
+
+
+.search label{
+	width: 81px;
+	height: 100%;
+	float: right;
+	background-color: #f84e4e;
+	text-align: center;
+
+}
+
+.search_left{
+	width:368px;
+	height:80px;
+
+}
+
+.top_foot{
+	background-color:	#FFFF00;
+	height: 50px;
+	width: 100%;
+}
+
+
+.nav1{
+	background-color: #f84e4e;
+	
+	width: 980px;
+	margin: 0 auto;
+	list-style: none; 
+
+}
+
+.top_nav {
+	padding: 0;
+	color:#fff;
+	margin:0;
+
+}
+
+ul li{
+	font-size:15px;
+	padding: 12.5px 0;
+	display:inline-block;
+	height: 50px;
+	width: 140px;
+	text-align:center;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+ul > li.active {
+	background-color: #e32f2f;
+}
+ul > li:hover {
+	background-color: #e32f2f;
+}
+
+
+.img{
+	background-color:red;
+	height: 500px;
+	width: 100%;
+}
+
+.body{
+	background-color: green;
+	height: 800px;
+	width: 600px;
+	margin:0 auto; 
+	
+}
+
+
+
+.foot{
+	background-color:#b0c4de;
+	height: 50px;
+	width: 100%;
+}
+
+
